@@ -1,0 +1,36 @@
+.footer_flex{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 400px;
+    background-color: gainsboro;
+}
+img{
+    height: 20px;
+}
+.footer_flex4_inner{
+    display: flex;
+   
+}
+
+.footer_flex4 img{
+    margin-top: 17px;
+};
+.footer_flex4_inner img{
+    margin-left: 3px;
+    margin-right: 3px;
+    flex-wrap: wrap;
+}
+.footer_flex4 p{
+    margin-top: 17px;
+}
+.footer_flex p{
+    margin-top: 17px;
+}
+.copyright{
+    height: 60px;
+    background-color: rgb(138, 134, 134);
+    padding: 4px 32px 4px 32px;
+    display: flex;
+    justify-content: space-between;
+}

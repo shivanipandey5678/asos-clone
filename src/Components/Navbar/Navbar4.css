@@ -1,0 +1,50 @@
+.navbar4{
+    display: flex;
+    width: 100%;
+    height: 50px;
+   
+    
+
+}
+.navbar4_first{
+    
+    background-color: #F799BA;
+    color: black;
+    width: 50%;
+    text-align: center;
+    position: relative;
+    border: 1px solid white;
+    border-top: none;
+    position: relative;
+}
+.hover-message {
+    display: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(1, 1, 1, 0.2);
+    z-index: 9999; /* Set a high z-index to ensure it appears on top */
+}
+
+.navbar4_first:hover .hover-message {
+    display: block;
+    overflow-y: visible;
+   
+}
+.navbar4_second{
+    display: flex;
+    background-color:black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    border: 1px solid white;
+   border-top: none;
+   
+}

@@ -1,0 +1,72 @@
+
+.search-container {
+    position: relative;
+
+  }
+  
+  #search {
+    padding-left: 20px; 
+}
+
+  .navbar2{
+    display: flex;
+    height: 55px;
+    background-color:#2d2d2d;
+    justify-content: space-around;
+    padding: 0px 60px;
+    align-items: center;
+   overflow-y: hidden;
+  }
+  #navbar_flex1{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    justify-content: space-evenly;
+  }
+  #logo{
+    height: 26px;
+  }
+  #navbar_flex1 p{
+    color: white;
+    padding: 20px;
+   
+  }
+  #search{
+    width: 800px;
+    height: 40px;
+    border-radius: 25px;
+  }
+  #navbar_flex3{
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+    padding-right: 80px;
+  }
+  #navbar_flex3 img{
+   height: 30px;
+
+  }
+ .account_name{
+    display: none;
+  }
+
+
+  .account:hover .account_name {
+    display: block;
+   
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  /* Adjust top and left properties as needed */
+  top: 30px; /* Adjust the distance from the top of the navbar */
+  left: 0; /* Align the dropdown content with the left side of the navbar */
+}
+
+.account:hover .dropdown-content {
+  display: block;
+}

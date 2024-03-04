@@ -1,0 +1,23 @@
+.flexbox{
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+   margin-left: auto;
+   margin-right: auto;
+    justify-content: space-evenly;
+
+}
+.feature__img{
+    height: 350px;
+    width: 300px;
+}
+.flexbox1{
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-evenly;
+    height: 450px;
+    align-items: center;
+}

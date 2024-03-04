@@ -1,0 +1,62 @@
+.Offer_banner{
+    width: 100%;
+    background-color: #F799BA;
+    height: 200px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.btn_banner{
+    background-color: white;
+    color: black;
+    height: fit-content;
+    border-radius: 25px;
+    border: none;
+    padding: 6px 12px 6px 12px;
+
+}
+
+
+
+
+
+
+
+/* .btn_banner{
+    background-color: white;
+    color: black;
+    width: 210px;
+    height: 35px;
+    border-radius: 15px;
+    border: none;
+  font-size: larger;
+  
+}
+.Offer_banner{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+    height: 200px;
+    background-color: #F799BA;
+   text-align: center;
+   padding: ;
+ 
+  
+}
+.Offer_banner h1{
+    font-weight: 700;
+    font-size: 50px;
+   
+}
+.Offer_banner h3{
+  
+    letter-spacing: 1px;
+}
+.Offer_banner span{
+    border: 2px solid black;
+    padding: 3px;
+}
+.Offer_banner h6{
+    letter-spacing: 0.5px;
+} */
+

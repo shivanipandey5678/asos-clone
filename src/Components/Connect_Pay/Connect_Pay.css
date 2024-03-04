@@ -1,0 +1,24 @@
+.Connect_card{
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.connect img{
+    height: 30px;
+    width: 60px;
+    
+
+  
+}
+.pay{
+    height: 30px;
+    width: 350px;
+    display: flex;
+    padding: 0px 0px 0px 50px;
+    margin: 20px 0px 20px 50px;
+    justify-content: space-between;
+    border-left: 1px solid black;
+
+} 

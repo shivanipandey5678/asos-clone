@@ -1,0 +1,17 @@
+.Company{
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+    
+}
+.Company img{
+    height: 120px;
+    
+ 
+    
+}
+.new_fullt{
+  height:  15px;
+}
